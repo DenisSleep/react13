@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 420px;
+}
+
+.card img,
+.card_name {
+    width: 430px;
+}
+
+.card img{
+    aspect-ratio: 1.22093023256/1;
+}
+
+.card_name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_price {
+    color: #0009EA;
+    font-size: 32px;
+}
+
+.card_btn {
+    background-color: #0009EA;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.card_btn:hover{
+    background-color:#575ce2;
+}

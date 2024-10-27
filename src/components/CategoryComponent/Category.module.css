@@ -1,0 +1,28 @@
+.category {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.category p {
+    padding: 5px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    color:#0009EA;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.category p.active{
+    background-color: #0009EA;
+    color:white;
+    box-shadow: 0;
+}
+
+.category p:hover{
+    background-color: #0009EA;
+    color:white;
+}

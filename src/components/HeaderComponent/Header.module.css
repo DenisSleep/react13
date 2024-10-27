@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+    gap: 70px;
+}
+
+
+.header_btns{
+    display: flex;
+    gap: 20px;
+}
+
+.header_btns button{
+    padding: 8px 25px;
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.left{
+    background-color: #232323;
+}
+
+.right{
+    background-color:#0009EA;
+}

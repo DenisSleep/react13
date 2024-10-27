@@ -1,0 +1,17 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item{
+    padding: 20px;
+    background-color: #000000;
+
+}
+.text{
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.500);
+}
